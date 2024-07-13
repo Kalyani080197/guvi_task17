@@ -1,0 +1,101 @@
+1. What is the difference between automated and manual testing in software development?
+Manual Testing:
+Definition: Manual testing involves human testers executing test cases without the use of automation tools. Testers manually interact with the application to find defects.
+Process: Includes steps such as writing test cases, manually running tests, observing outcomes, and logging defects.
+Advantages:
+Flexibility in exploratory testing.
+Better for testing user interfaces and user experiences.
+Useful for ad-hoc testing.
+Disadvantages:
+Time-consuming and labor-intensive.
+Prone to human error.
+Not scalable for large projects.
+Inconsistent test coverage.
+Automated Testing:
+Definition: Automated testing uses software tools and scripts to run tests automatically, checking the application's functionality.
+Process: Involves creating test scripts, running them automatically, and comparing actual outcomes with expected results.
+Advantages:
+Faster execution of repetitive tests.
+More reliable and consistent.
+Reusable test scripts.
+Scalable for large projects.
+Better suited for regression testing.
+Disadvantages:
+Initial setup and maintenance can be costly and time-consuming.
+Requires programming knowledge.
+Not as flexible for exploratory testing.
+
+2. Explore some of the most common automation testing tools available on the market
+Selenium:
+Description: A widely used open-source tool for web application testing.
+Features: Supports multiple browsers, platforms, and programming languages.
+Use Cases: Web-based application testing.
+JUnit:
+Description: A framework for Java, mainly used for unit testing.
+Features: Supports annotations, test fixtures, and test runners.
+Use Cases: Unit testing for Java applications.
+TestNG:
+Description: Inspired by JUnit, TestNG is a testing framework for Java.
+Features: Supports annotations, parallel execution, and detailed test configuration.
+Use Cases: Integration and end-to-end testing.
+Appium:
+Description: An open-source tool for mobile application testing.
+Features: Supports Android and iOS platforms.
+Use Cases: Mobile app testing.
+Cucumber:
+Description: A tool for Behavior-Driven Development (BDD).
+Features: Supports writing tests in plain language.
+Use Cases: Automated acceptance testing.
+Jenkins:
+Description: A continuous integration tool that supports automated testing.
+Features: Integrates with many other tools, supports plugins.
+Use Cases: Automating build, testing, and deployment pipelines.
+Postman:
+Description: A tool for API testing.
+Features: Supports automated API testing and can be integrated with CI/CD pipelines.
+Use Cases: Testing RESTful APIs.
+
+3. What is Cross Browser Testing?
+Cross Browser Testing:
+Definition: A type of testing to ensure that a web application works as expected across different browsers and devices.
+Purpose: To identify and fix browser-specific issues to provide a consistent user experience.
+Challenges:
+Different browsers render HTML and CSS differently.
+JavaScript execution can vary.
+Browser versions and device compatibility.
+Tools:
+BrowserStack: Provides cloud-based cross-browser testing.
+Sauce Labs: Offers a wide range of browser and device combinations for testing.
+CrossBrowserTesting: Supports live testing, automated testing, and visual testing across multiple browsers and devices.
+
+4. Write a Blog on TDD and BDD
+Test-Driven Development (TDD):
+Definition: A software development approach where tests are written before writing the actual code.
+Process:
+Write a test for a new feature.
+Run the test and see it fail (since the feature isn't implemented yet).
+Write the minimum code necessary to pass the test.
+Refactor the code while ensuring the test still passes.
+Repeat for new features.
+Advantages:
+Ensures high test coverage.
+Leads to better-designed, cleaner, and more reliable code.
+Early bug detection.
+Disadvantages:
+Can be time-consuming initially.
+Requires developers to think about testing from the start.
+Behavior-Driven Development (BDD):
+Definition: An extension of TDD, focusing on the behavior of an application from the end user's perspective.
+Process:
+Write user stories or scenarios in plain language.
+Convert these stories into automated tests.
+Implement the code to pass the tests.
+Refactor the code while keeping the tests passing.
+Tools: Cucumber, SpecFlow, JBehave.
+Advantages:
+Encourages collaboration between developers, testers, and business stakeholders.
+Tests are written in a language that non-technical stakeholders can understand.
+Ensures that the software meets user requirements.
+Disadvantages:
+Can be challenging to write good scenarios.
+Requires investment in training and tooling.
